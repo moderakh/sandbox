@@ -1,0 +1,168 @@
+{
+	"userAgent": "azsdk-java-cosmos/4.7.1 Linux/4.19.145-flatcar JRE/11.0.5",
+	"requestLatencyInMs": 353,
+	"requestStartTimeUTC": "2020-10-26T21:15:51.282931Z",
+	"requestEndTimeUTC": "2020-10-26T21:15:51.636174Z",
+	"connectionMode": "DIRECT",
+	"responseStatisticsList": [{
+		"storeResult": {
+			"storePhysicalAddress": "rntbd://cdb-ms-prod-centralus1-fd20.documents.azure.com:14381/apps/1e669c08-517d-42b3-a98f-6793199079cb/services/dccc307d-c182-4c24-8dd6-08bc3d4c7652/partitions/9c5e43bc-9dbc-4934-aea3-d10f65595fdd/replicas/122418146091023609s/",
+			"lsn": 6396675,
+			"globalCommittedLsn": 6396673,
+			"partitionKeyRangeId": "768",
+			"isValid": true,
+			"statusCode": 200,
+			"subStatusCode": 0,
+			"isGone": false,
+			"isNotFound": false,
+			"isInvalidPartition": false,
+			"requestCharge": 1.0,
+			"itemLSN": 6395757,
+			"sessionToken": "1#6396675#1=-1",
+			"exception": null,
+			"transportRequestTimeline": [{
+				"eventName": "created",
+				"durationInMicroSec": "4",
+				"startTime": "2020-10-26T21:15:51.283018Z"
+			}, {
+				"eventName": "queued",
+				"durationInMicroSec": "0",
+				"startTime": "2020-10-26T21:15:51.283022Z"
+			}, {
+				"eventName": "channelAcquisitionStarted",
+				"durationInMicroSec": "57835",
+				"startTime": "2020-10-26T21:15:51.283022Z"
+			}, {
+				"eventName": "pipelined",
+				"durationInMicroSec": "75",
+				"startTime": "2020-10-26T21:15:51.340857Z"
+			}, {
+				"eventName": "transitTime",
+				"durationInMicroSec": "9893",
+				"startTime": "2020-10-26T21:15:51.340932Z"
+			}, {
+				"eventName": "received",
+				"durationInMicroSec": "38",
+				"startTime": "2020-10-26T21:15:51.350825Z"
+			}, {
+				"eventName": "completed",
+				"durationInMicroSec": "0",
+				"startTime": "2020-10-26T21:15:51.350863Z"
+			}],
+			"rntbdRequestLengthInBytes": 474,
+			"rntbdResponseLengthInBytes": 854,
+			"requestPayloadLengthInBytes": 0,
+			"responsePayloadLengthInBytes": 367,
+			"channelTaskQueueSize": 517,
+			"pendingRequestsCount": 0,
+			"serviceEndpointStatistics": {
+				"availableChannels": 1,
+				"acquiredChannels": 0,
+				"executorTaskQueueSize": 120,
+				"inflightRequests": 1,
+				"lastSuccessfulRequestTime": "2020-10-26T21:15:19.897Z",
+				"lastRequestTime": "2020-10-26T21:15:19.895Z",
+				"createdTime": "2020-10-26T20:19:16.192388Z",
+				"isClosed": false
+			}
+		},
+		"requestResponseTimeUTC": "2020-10-26T21:15:51.636172Z",
+		"requestResourceType": "Document",
+		"requestOperationType": "Read"
+	}, {
+		"storeResult": {
+			"storePhysicalAddress": "rntbd://cdb-ms-prod-centralus1-fd20.documents.azure.com:14138/apps/6f669c08-517d-42b3-a98f-6793199079cb/services/dccc307d-c882-4c24-8dd6-08bb3d4c7652/partitions/9c5c43bc-9dbc-4934-aea3-d10f65595fdd/replicas/132418146049929695s/",
+			"lsn": 6396675,
+			"globalCommittedLsn": 6396673,
+			"partitionKeyRangeId": "768",
+			"isValid": true,
+			"statusCode": 200,
+			"subStatusCode": 0,
+			"isGone": false,
+			"isNotFound": false,
+			"isInvalidPartition": false,
+			"requestCharge": 1.0,
+			"itemLSN": 6395757,
+			"sessionToken": "1#6396675#1=-1",
+			"exception": null,
+			"transportRequestTimeline": [{
+				"eventName": "created",
+				"durationInMicroSec": "5",
+				"startTime": "2020-10-26T21:15:51.283025Z"
+			}, {
+				"eventName": "queued",
+				"durationInMicroSec": "0",
+				"startTime": "2020-10-26T21:15:51.283030Z"
+			}, {
+				"eventName": "channelAcquisitionStarted",
+				"durationInMicroSec": "293113",
+				"startTime": "2020-10-26T21:15:51.283030Z"
+			}, {
+				"eventName": "pipelined",
+				"durationInMicroSec": "68",
+				"startTime": "2020-10-26T21:15:51.576143Z"
+			}, {
+				"eventName": "transitTime",
+				"durationInMicroSec": "59930",
+				"startTime": "2020-10-26T21:15:51.576211Z"
+			}, {
+				"eventName": "received",
+				"durationInMicroSec": "17",
+				"startTime": "2020-10-26T21:15:51.636141Z"
+			}, {
+				"eventName": "completed",
+				"durationInMicroSec": "1",
+				"startTime": "2020-10-26T21:15:51.636158Z"
+			}],
+			"rntbdRequestLengthInBytes": 474,
+			"rntbdResponseLengthInBytes": 854,
+			"requestPayloadLengthInBytes": 0,
+			"responsePayloadLengthInBytes": 367,
+			"channelTaskQueueSize": 5,
+			"pendingRequestsCount": 0,
+			"serviceEndpointStatistics": {
+				"availableChannels": 1,
+				"acquiredChannels": 1,
+				"executorTaskQueueSize": 121,
+				"inflightRequests": 4,
+				"lastSuccessfulRequestTime": "2020-10-26T21:15:47.546Z",
+				"lastRequestTime": "2020-10-26T21:15:51.279Z",
+				"createdTime": "2020-10-26T20:19:11.014403Z",
+				"isClosed": false
+			}
+		},
+		"requestResponseTimeUTC": "2020-10-26T21:15:51.636174Z",
+		"requestResourceType": "Document",
+		"requestOperationType": "Read"
+	}],
+	"supplementalResponseStatisticsList": [],
+	"addressResolutionStatistics": {},
+	"regionsContacted": ["https://abc.documents.azure.com:443/"],
+	"retryContext": {
+		"retryCount": 0,
+		"statusAndSubStatusCodes": null,
+		"retryLatency": 0
+	},
+	"metadataDiagnosticsContext": {
+		"metadataDiagnosticList": null
+	},
+	"serializationDiagnosticsContext": {
+		"serializationDiagnosticsList": null
+	},
+	"gatewayStatistics": null,
+	"systemInformation": {
+		"usedMemory": "2266703 KB",
+		"availableMemory": "3604913 KB",
+		"systemCpuLoad": "(2020-10-26T21:15:22.871208Z 16.8%), (2020-10-26T21:15:27.871197Z 15.1%), (2020-10-26T21:15:32.871183Z 14.1%), (2020-10-26T21:15:37.871195Z 14.8%), (2020-10-26T21:15:42.871207Z 16.2%), (2020-10-26T21:15:47.871200Z 14.0%)"
+	},
+	"clientCfgs": {
+		"id": 1,
+		"numberOfClients": 2,
+		"connCfg": {
+			"rntbd": "(cto:PT2.3S, rto:PT2.3S, icto:PT0S, ieto:PT1H, mcpe:130, mrpc:30)",
+			"gw": "(cps:100, rto:PT2.3S, icto:PT1M, p:false)",
+			"other": "(ed: false, cs: true)"
+		},
+		"consistencyCfg": "(consistency: BoundedStaleness, mm: true, prgns: [centralus,eastus])"
+	}
+}
